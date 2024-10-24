@@ -16,7 +16,7 @@ For this tutorial to work, you need the [extension installed](https://marketplac
 
 ### Step one:
 
-In the left sidebar, you should see a Runme icon `[▶️]`, click that then `[Sign in]` which will authenticate you with Stateful cloud so you can `[save]` terminal artifacts.
+In the left sidebar, you should see a Runme icon `[▶️]`, click that then `[Sign in]` which will authenticate you with Stateful cloud so you can `[Save]` terminal artifacts.
 
 ### Step two:
 
@@ -26,7 +26,7 @@ You should see a `▶️ play` button to the left of the command (on hover), jus
 $ echo "hello-world"
 ```
 
-Now you should see terminal output, click the `[save]` button to securely store it's output and metadata in Stateful cloud.
+Now you should see terminal output, click the `[Save]` button to securely store it's output and metadata in Stateful cloud.
 
 ### Step three:
 
@@ -37,7 +37,7 @@ $ export YOUR_NAME='New Runme User'
 $ echo "Welcome to Runme Notebooks, ${YOUR_NAME}"
 ```
 
-You should see a welcome, customized with your input in the terminal output. Click `[save]` for this cell.
+You should see a welcome, customized with your input in the terminal output. Click `[Save]` for this cell.
 
 ### What next!?
 
