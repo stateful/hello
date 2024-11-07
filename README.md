@@ -4,40 +4,26 @@ runme:
   version: v3
 ---
 
-### Runme Notebook Saving Hello-World
+### Runme Notebook's Hello-World
 
-Let's run some commands, and show you how Notebooks work, then you can explore their metadata and sharing/permissions back in the Stateful cloud.
-
-You may notice a `.vscode` directly with `extensions.json` - this instructs VS Code to recommand that you install the `stateful.runme` VS Code extension (if you haven't already). Then you will be prompted to authenticate with the Stateful cloud.
-
-For this tutorial to work, you need the [extension installed](https://marketplace.visualstudio.com/items?itemName=stateful.runme) so that the Markdown renders as a notebook and all it's functionality is available.
-
----
+Run some commands in a Notebook! First click the 'allow' button to login to VS Code with your user.
 
 ### Step one:
 
-In the left sidebar, you should see a Runme icon `[▶️]`, click that then `[Sign in]` which will authenticate you with Stateful cloud so you can `[Save]` terminal artifacts.
-
-### Step two:
-
-You should see a `▶️ play` button to the left of the command (on hover), just click it!
+You should see a `▶️ play` button to the left of the command (on hover), just click it! Now you should see terminal output, click the `[Save]` button below the command to securely store its output and metadata (sign in if you haven’t). Then click `[Open]`, to go check it out in the browser.
 
 ```sh {"id":"01J1TBTVH2HPJNW6SXTTW70RMS","name":"step1-echo-command"}
 $ echo "hello-world"
 ```
 
-Now you should see terminal output, click the `[Save]` button to securely store it's output and metadata in Stateful cloud.
+### Step two:
 
-### Step three:
-
-When you `▶️ play` this command, you should see an input prompt pop-up, this is the notebook utilizing the VS Code built in UI for prompts and then storing the value in an environment variable.
+When you `▶️ play` this command, you should see an input prompt pop-up, this is the notebook utilizing the VS Code built in UI for prompts and then storing the value in an environment variable. You should see a `welcome message`, customized with your input in the terminal output. Click `[Save]` for this cell.
 
 ```sh {"id":"01J1TCBTA6K6BQ2K1P0FFFGDDF","name":"step2-input-command"}
 $ export YOUR_NAME='New Runme User'
 $ echo "Welcome to Runme Notebooks, ${YOUR_NAME}"
 ```
-
-You should see a welcome, customized with your input in the terminal output. Click `[Save]` for this cell.
 
 ### What next!?
 
