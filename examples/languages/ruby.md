@@ -8,7 +8,7 @@ runme:
 
 You can run Ruby code by setting the language of the cell to `Ruby`. To set the binary manually, click `Configure`, goto the `Advanced` tab and set the interpreter to `/usr/bin/ruby` for example.
 
-```Ruby {"id":"01JC6RX7NJSEA7XPBPW78Z88BC","interpreter":"","name":"ruby-greeting"}
+```ruby {"id":"01JC6RX7NJSEA7XPBPW78Z88BC","name":"ruby-greeting"}
 # Define a variable for the greeting
 greeting = "Hello, World!"
 
