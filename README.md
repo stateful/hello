@@ -28,6 +28,7 @@ $ echo "Welcome to Runme Notebooks, ${YOUR_NAME}"
 ### What next!?
 
 - Create a new command cell, by hovering over the area in the notebook you want, and click `+ Code`, write a command and `▶️ play` it.
+- Check out everything Runme can do in the /examples directory
 - Create a new Markdown file `exploring.md` with the file explorer and build a new Notebook workflow from scratch.
 - Open the [Stateful Cloud](https://cloud.stateful.com) to see the commands you ran, configure your workspace, and start collaborating with your team.
 - Check out wide range of cool stuff notebooks can do, [Runme docs](https://runme.dev)
