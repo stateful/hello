@@ -21,7 +21,7 @@ $ echo "hello-world"
 When you `▶️ play` this command, you should see an input prompt pop-up, this is the notebook utilizing the VS Code built in UI for prompts and then storing the value in an environment variable. You should see a `welcome message`, customized with your input in the terminal output. Click `[Save]` for this cell.
 
 ```sh {"id":"01J1TCBTA6K6BQ2K1P0FFFGDDF","name":"step2-input-command"}
-$ export YOUR_NAME='New Runme User'
+$ export YOUR_NAME="New Runme User"
 $ echo "Welcome to Runme Notebooks, ${YOUR_NAME}"
 ```
 
