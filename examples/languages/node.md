@@ -8,18 +8,26 @@ runme:
 
 You can run Node code by setting the language of the cell to `Babel JavaScript`. To set the binary manually, click `Configure`, goto the `Advanced` tab and set the interpreter to whatever you want, `/usr/bin/nodejs` for example.
 
-```python {"id":"01JC6RX7NJSEA7XPBPW78Z88BC","interpreter":"","name":"node-greeting"}
-import datetime
+```javascript {"id":"01JC6RX7NJSEA7XPBPW78Z88BC","name":"node-greeting"}
+// Import the 'child_process' module
+const { exec } = require('child_process');
 
-# Define a variable for the greeting
-greeting = "Hello, World!"
+// Define the command to execute (cross-platform)
+const command = process.platform === 'win32' ? 'dir' : 'ls';
 
-# Get the current date and time
-currentDateTime = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+// Execute the command
+exec(command, (error, stdout, stderr) => {
+  if (error) {
+    console.error(`Error executing command: ${error.message}`);
+    return;
+  }
 
-# Concatenate the greeting with the current date and time
-fullGreeting = greeting + " It's now " + currentDateTime
+  if (stderr) {
+    console.error(`Standard error: ${stderr}`);
+    return;
+  }
 
-# Output the full greeting
-print(fullGreeting)
+  // Output the result of the command
+  console.log(`Command output:\n${stdout}`);
+});
 ```
