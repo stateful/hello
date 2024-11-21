@@ -18,6 +18,7 @@ A-->C;
 B-->D;
 C-->D;
 :::
+</pre>
 
 **And it will render the diagram:**
 
