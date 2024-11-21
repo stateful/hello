@@ -20,7 +20,7 @@ C-->D;
 :::
 </pre>
 
-**And it will render the diagram:**
+**And it will render a visual diagram if it's working:**
 
 ::: mermaid
 graph TD;
