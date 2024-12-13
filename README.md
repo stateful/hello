@@ -13,6 +13,7 @@ Run some commands in a Notebook! First click the 'allow' button to login to VS C
 You should see a `▶️ play` button to the left of the command (on hover), just click it! Now you should see terminal output, click the `[Save]` button below the command to securely store its output and metadata (sign in if you haven’t). Then click `[Open]`, to go check it out in the browser.
 
 ```sh {"id":"01J1TBTVH2HPJNW6SXTTW70RMS","name":"step1-echo-command"}
+## <- hover and click ▶️ button here
 $ echo "hello-world"
 ```
 
